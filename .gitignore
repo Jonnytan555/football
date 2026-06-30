@@ -1,0 +1,28 @@
+# Environment
+.env
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Model artefacts
+football_data/model.pkl
+
+# Logs (keep directory, not files)
+football_data/logs/*.log
+football_data/logs/.*
+
+# IDE
+.idea/
+.vscode/
+
+# Exports
+features.csv
+
+# Docker
+*.tar

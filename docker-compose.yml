@@ -1,0 +1,6 @@
+services:
+  app:
+    image: ghcr.io/${GITHUB_REPOSITORY:-your-user/football}:latest
+    env_file: .env
+    volumes:
+      - ./football_data:/app/football_data
