@@ -13,6 +13,12 @@ import os
 import sys
 import traceback
 
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    pass
+
 from shared.logger import setup_log
 
 APP_NAME = "ingestion"

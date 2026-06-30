@@ -6,3 +6,4 @@ joblib
 httpx
 requests
 retry
+python-dotenv
