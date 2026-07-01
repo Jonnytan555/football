@@ -279,11 +279,12 @@ cp .env.example .env   # fill in your credentials
 ### Ingestion
 
 ```bash
-python -m ingestion.main today                    # today's results
-python -m ingestion.main backfill                 # 2020 → now
-python -m ingestion.main backfill 2022 2023 2024  # specific seasons
-python -m ingestion.main standings                # league tables
-python -m ingestion.main teams                    # team reference data
+python -m ingestion.today                    # today's results
+python -m ingestion.backfill                 # 2020 → now
+python -m ingestion.backfill 2022 2023 2024  # specific seasons
+python -m ingestion.standings                # league tables
+python -m ingestion.standings 2023 2024      # specific seasons
+python -m ingestion.teams                    # team reference data
 ```
 
 ### Modelling
